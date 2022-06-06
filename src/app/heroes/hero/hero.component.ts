@@ -15,4 +15,12 @@ export class HeroComponent{
   get nameCapital() {
     return this.name.toUpperCase();
   }
+
+  changeName(): void {
+    this.name = 'Spiderman';
+  }
+
+  changeAge(): void {
+    this.age = 30;
+  }
 }

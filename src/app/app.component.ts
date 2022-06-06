@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: 'app.component.html'
+  //</span>'
 })
 export class AppComponent {
-  title = 'bases';
+  title = 'Counter App';
+  n: number = 0;
 }

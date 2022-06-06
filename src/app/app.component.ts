@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Counter App';
   n: number = 0;
+
+  add(a: number){
+    this.n += a;
+  }
 }

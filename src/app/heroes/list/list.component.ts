@@ -4,9 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-list',
   templateUrl: './list.component.html'
 })
+
 export class ListComponent {
   heroes: string[] = ['Spiderman', 'IronMan', 'Hulk', 'Thor'];
-  deletedHero: string = '...'
+  deletedHero: string = ''
  /**
   * name
   */

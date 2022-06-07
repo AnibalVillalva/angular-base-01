@@ -1,0 +1,25 @@
+<h1>Hero Component Wotrks {{name}}</h1>
+
+<dl>
+  <td> Name: </td>
+  <dd>{{name}}</dd>
+
+  <td> Age: </td>
+  <dd>{{age}}</dd>
+
+    <td> Func: </td>
+    <dd>{{getName()}}</dd>
+
+      <td> Capitalizado: </td>
+      <dd>{{nameCapital}}</dd>
+
+
+      <button (click)='changeName()'>
+        Change Hero
+      </button>
+
+
+      <button (click)='changeAge()'>
+        Change Age
+      </button>
+</dl>

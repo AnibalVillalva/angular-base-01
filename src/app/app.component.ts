@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   //</span>'
 })
 export class AppComponent {
-  title = 'Counter App';
-  n: number = 0;
-  base: number = 5;
 
-  add(a: number){
-    this.n += a;
-  }
 }

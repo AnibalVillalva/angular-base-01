@@ -5,4 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './list.component.html'
 })
 export class ListComponent {
+  heroes: string[] = ['Spiderman', 'IronMan', 'Hulk', 'Thor'];
+  deletedHero: string = '...'
+ /**
+  * name
+  */
+ public deleteItemHero() {
+   this.deletedHero = this.heroes.shift() || '';
+ }
+
 }
+
+

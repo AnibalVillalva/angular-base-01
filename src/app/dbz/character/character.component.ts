@@ -6,6 +6,7 @@ import { Character } from '../interfaces/dbz.interfaces';
   templateUrl: './character.component.html',
   styleUrls: ['./character.component.css']
 })
+
 export class CharacterComponent{
 
   @Input('data') listCharacter: Character[]= [];

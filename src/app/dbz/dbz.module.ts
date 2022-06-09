@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { MainPageComponent } from './main-page/main-page.component';
 import { CharacterComponent } from './character/character.component';
+import { AddCharacterComponent } from './add-character/add-character.component';
 
 
 @NgModule({
   declarations: [
     MainPageComponent,
-    CharacterComponent
+    CharacterComponent,
+    AddCharacterComponent
   ],
 
   imports: [

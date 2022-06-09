@@ -24,15 +24,9 @@ export class MainPageComponent {
     power:0
   }
 
-  addCharacter() {
-    if (this.newCharacter.name.trim().length != 0){
-
-      console.log(this.newCharacter);
-      this.listCharacter.push(this.newCharacter);
-      this.newCharacter.name = "";
-      this.newCharacter.power = 0;
-
-    }
-
+  addNewCharacter(character: Character){
+    console.log(character);
+    this.listCharacter.push(character);
+    console.log( this.listCharacter );
   }
-}
+  }

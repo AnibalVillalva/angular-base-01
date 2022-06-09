@@ -6,9 +6,7 @@
     <h3>Character</h3>
     <hr>
     <ul>
-      <li>Krillin - 700</li>
-      <li>Goku - 1500</li>
-      <li>Vegeta - 900</li>
+      <li *ngFor=" let dbz of listCharacter;">{{dbz.name}} - {{dbz.power | number}}</li>
     </ul>
   </div>
 

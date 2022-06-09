@@ -11,12 +11,30 @@ interface Character {
 })
 export class MainPageComponent {
 
+  listCharacter: Character[] = [
+    {
+      name: "Goku",
+      power: 15000
+    },
+    {
+      name: "Vegeta",
+      power: 7500
+    }
+  ]
   newCharacter: Character = {
-    name:"P",
+    name:"",
     power:0
   }
 
   addCharacter() {
-    console.log(this.newCharacter);
+    if (this.newCharacter.name.trim().length != 0){
+
+      console.log(this.newCharacter);
+      this.listCharacter.push(this.newCharacter);
+      this.newCharacter.name = "";
+      this.newCharacter.power = 0;
+
+    }
+
   }
 }

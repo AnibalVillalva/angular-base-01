@@ -19,14 +19,14 @@ export class DbzService{
     return [...this._listCharacter] // returned by value
   }
 
+  constructor() {}
+
+
   addNewCharacter(character: Character){
     console.log(character);
     this._listCharacter.push(character);
     console.log( this._listCharacter );
   }
 
-  constructor() {
-    console.log('Service')
-  }
 
 }

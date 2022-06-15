@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Character } from '../interfaces/dbz.interfaces';
-import { DbzService } from '../services/dbz.service';
 
 
 @Component({

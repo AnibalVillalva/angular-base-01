@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Character } from '../interfaces/dbz.interfaces';
 import { DbzService } from '../services/dbz.service';
-import { ListComponent } from '../../heroes/list/list.component';
 
 @Component({
   selector: 'app-character',
